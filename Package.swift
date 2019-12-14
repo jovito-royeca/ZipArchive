@@ -2,21 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "ZipArchive",
+    name: "SSZipArchive",
     platforms: [
         .iOS(.v9),
     ],
     products: [
         .library(
-            name: "ZipArchive",
-            targets: ["ZipArchive"]),
+            name: "SSZipArchive",
+            targets: ["SSZipArchive"]),
     ],
     dependencies: [
         // no dependencies
     ],
     targets: [
         .target(
-            name: "ZipArchive",
+            name: "SSZipArchive",
             path: "SSZipArchive"
         ),
     ]
