@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "SSZipArchive",
-            path: "SSZipArchive"
+            path: "Sources"
         ),
     ]
 )
